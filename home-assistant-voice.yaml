@@ -1725,6 +1725,8 @@ micro_wake_word:
       id: hey_jarvis
     - model: hey_mycroft
       id: hey_mycroft
+    - model: "https://github.com/OffReno/ella-reeah-wakeword/raw/main/ella_reeah.json"
+      id: ella_reeah
     - model: https://github.com/kahrendt/microWakeWord/releases/download/stop/stop.json
       id: stop
       internal: true
